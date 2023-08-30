@@ -1,0 +1,3 @@
+npm -init en linea de comandos
+log con interptrete
+npm publish
