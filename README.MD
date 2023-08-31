@@ -22,7 +22,8 @@ function obtenerColorTipo(tipo) {
 // Ejemplo de uso
 const tipoPokemon = "agua";
 const colorAsociado = obtenerColorTipo(tipoPokemon);
-console.log(`El color asociado al tipo ${tipoPokemon} es ${colorAsociado}`);
+console.log(`El color asociado al tipo ${tipoPokemon} es ${colorAsociado
+```
 
 # Ejemplos de Tipos y Colores
 Aquí tienes algunos ejemplos de tipos de Pokémon y sus colores asociados:
@@ -31,11 +32,11 @@ Aquí tienes algunos ejemplos de tipos de Pokémon y sus colores asociados:
 "fuego" → "red"
 "planta" → "green"
 
-#Instalacion del modulo.
+# Instalacion del modulo.
 bash
 $ npm install paquete
 
-# Exportar la Función
+# Exportar la Función.
 La función obtenerColorTipo se ha exportado para que puedas utilizarla en otros archivos de tu proyecto. Aquí está cómo puedes importarla y usarla:
 import paquete = require('paquete')
 const tipoPokemon = "fuego";
