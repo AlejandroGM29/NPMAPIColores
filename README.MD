@@ -11,18 +11,12 @@ En este proyecto, hemos definido un objeto llamado `tiposDePokemon`, que asocia 
 Puedes utilizar la función `obtenerColorTipo` para obtener el color asociado a un tipo de Pokémon específico. Aquí tienes un ejemplo de cómo puedes usarlo en tu código:
 
 ```javascript
-const tiposDePokemon = {
-    // ... (definiciones de tipos y colores)
-};
-
-function obtenerColorTipo(tipo) {
-    return tiposDePokemon[tipo];
-}
 
 // Ejemplo de uso
 const tipoPokemon = "agua";
 const colorAsociado = obtenerColorTipo(tipoPokemon);
-console.log(`El color asociado al tipo ${tipoPokemon} es ${colorAsociado
+console.log(`El color asociado al tipo ${tipoPokemon} es ${colorAsociado}`);
+infoDiv.style.backgroundColor = obtenerColorTipo(tipoPokemon);
 ```
 
 # Ejemplos de Tipos y Colores
@@ -38,7 +32,8 @@ $ npm install paquete
 
 # Exportar la Función.
 La función obtenerColorTipo se ha exportado para que puedas utilizarla en otros archivos de tu proyecto. Aquí está cómo puedes importarla y usarla:
+```Javascript
 import paquete = require('paquete')
 const tipoPokemon = "fuego";
 let tipo = paquete.obtenerTIpo('vuelo')
-
+```
